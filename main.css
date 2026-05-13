@@ -15,4 +15,33 @@ header {
     background: #111827;
     padding: 20px;
     position: sticky;
-    top: 0; }
+    top: 0;
+ }
+ nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .logo {
+     color: #38bdf8;
+ }
+
+ nav ul {
+     display: flex;
+     list-style: none;
+ }
+
+ nav ul li {
+     margin-left: 20px;
+ }
+
+ nav ul li a {
+     color: white;
+     text-decoration: none;
+     transition: 0.3s;
+ }
+
+ nav ul li a:hover {
+     color: #38bdf8; 
+}
